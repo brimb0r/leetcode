@@ -25,7 +25,6 @@ func isPalindromeSlow(s string) bool {
 	}
 
 	for i, j := 0, end; i < end && j > 0; i, j = i+1, j-1 {
-		fmt.Println(s[i], s[j])
 		if s[i] != s[j] {
 			return false
 		}
